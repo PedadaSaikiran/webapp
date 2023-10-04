@@ -1,0 +1,55 @@
+#con{
+display:flex;
+background-color:rgb(207,159,255);
+padding:15px;
+justify-content:space-between;
+}
+#main{
+text-align:center;
+font-weight:bold;
+font-size:30px;
+background-color:#ADD8E6;
+width:280px;
+margin-left:600px;
+border-radius:10px;
+}
+#bg{
+	background-image:url("build.jpg");
+	background-repeat:no-repeat;
+	background-size:1400px 700px;
+}
+#log{
+	margin-left:950px;
+}
+.h{
+	font-size:20px;
+}
+#three ul li{
+	display:none;
+}
+#three:hover ul li {
+	display:block;
+}
+
+a:link{
+color:black;
+text-decoration:none;
+}
+a:visited{
+color:black;
+text-decoration:none;
+}
+a:hover{
+color:black;
+text-decoration:underline;
+}
+a:active{
+color:black;
+text-decoration:underline;
+}
+#three{
+background-color:rgb(207,159,255);
+border:none;
+font-size:20px;
+font-weight:bold;
+}
